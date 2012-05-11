@@ -20,10 +20,11 @@ no_index:
     - inc
     - t
 requires:
+  Devel::GlobalDestruction: 0
   Moose: 0
   Net::RabbitFoot: 0
   namespace::autoclean: 0
 resources:
   license: http://dev.perl.org/licenses/
   repository: git://somewhere.com/myproject.git
-version: 0.006
+version: 0.007
